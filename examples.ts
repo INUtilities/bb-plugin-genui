@@ -36,7 +36,7 @@ const SOURCES: Partial<Record<ComponentName, string>> = {
   Treemap:
     "esbuild <entry> --bundle --metafile=$BB_THREAD_STORAGE/meta.json --outdir=/tmp/out · du -k -d 2 <dir> > $BB_THREAD_STORAGE/du.txt · or sizes as the list",
   Board:
-    "bb tasks list --project <KEY> --json > $BB_THREAD_STORAGE/tasks.json · gh issue list --json number,title,state,labels,assignees,url,updatedAt > $BB_THREAD_STORAGE/issues.json · gh pr list --json number,title,state,isDraft,labels,assignees,author,url,updatedAt",
+    "bb issues list --project <KEY> --json > $BB_THREAD_STORAGE/native-issues.json · gh issue list --json number,title,state,labels,assignees,url,updatedAt > $BB_THREAD_STORAGE/issues.json · gh pr list --json number,title,state,isDraft,labels,assignees,author,url,updatedAt",
   Acceptance:
     "write {criteria: [{name, cells: {column: {status, note, evidence, by}}}]} to $BB_THREAD_STORAGE/acceptance.json as you check each criterion; a workflow gate's {matrix} or an owner's {complete, contract, blockers} loads as it is · evidence: file:line, a path, an https URL or an image",
   Transcript:

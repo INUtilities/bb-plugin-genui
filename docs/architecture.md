@@ -180,7 +180,7 @@ the instructions list it.
     repeated experiment; rows measured under different conditions read "not
     comparable"), Waterfall (spans, a HAR, a Chrome trace) and Treemap
     (sizes, an esbuild metafile, `du`).
-- Manage: Board (a list, `bb tasks list --json`, `gh issue/pr list
+- Manage: Board (a list, `bb issues list --json`, `gh issue/pr list
   --json`), Roadmap (a Gantt), Status (project health), Plan (steps the
   user approves in one message), Decision (a weighted matrix whose weights
   the user tunes), Estimate (three-point, P50/P80/P90), and Environments,

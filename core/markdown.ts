@@ -1592,7 +1592,7 @@ const BOARD_COLUMN_ROWS = 20;
 
 const BOARD_TITLE: Record<string, [string, string, string]> = {
   list: ["Board", "item", "items"],
-  tasks: ["Tasks", "task", "tasks"],
+  tasks: ["Issues", "issue", "issues"],
   issues: ["Issues", "issue", "issues"],
   pulls: ["Pull requests", "pull request", "pull requests"],
 };

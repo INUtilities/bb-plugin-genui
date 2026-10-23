@@ -460,7 +460,7 @@ const SOURCE_NOUN: Record<BoardData["source"], [string, string]> = {
 
 const SOURCE_TITLE: Record<BoardData["source"], string> = {
   list: "Board",
-  tasks: "Tasks",
+  tasks: "Issues",
   issues: "Issues",
   pulls: "Pull requests",
 };
@@ -489,7 +489,7 @@ export function Board({ props }: { props: Props }) {
     working > 0 ? `${formatNumber(working)} with agents working` : null,
     board.hidden > 0 ? `${formatNumber(board.hidden)} in other columns not shown` : null,
     board.skipped > 0 ? `${formatNumber(board.skipped)} without a title left out` : null,
-    board.truncated ? "more in BB Tasks" : null,
+    board.truncated ? "more in BB Issues" : null,
   ].filter((part) => part !== null);
   const metaLine = meta.flatMap((part, index) => (index === 0 ? [part] : [" · ", part]));
 

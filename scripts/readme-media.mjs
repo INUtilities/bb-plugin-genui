@@ -23,7 +23,7 @@ const SLIDES = [
   ["Diagram", "dark", "Diagram · click a part to read about it"],
   ["Map", "light", "Map · places looked up and routed"],
   ["Decision", "light", "Decision · you tune the weights"],
-  ["Board", "dark", "Board · bb tasks or GitHub issues"],
+  ["Board", "dark", "Board · bb issues or GitHub issues"],
   ["Roadmap", "light", "Roadmap"],
   ["Transcript", "light", "Transcript · aligned word by word, with WER"],
   ["Compare", "dark", "Compare · wipe, blink or pixel difference"],
