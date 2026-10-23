@@ -550,7 +550,7 @@ export const COMPONENTS = {
   Board: {
     group: "Manage",
     params: [{ name: "items", kind: "any" }, { name: "columns", kind: "list", optional: true }],
-    summary: "kanban: [{title, status, …}] or Load bb tasks list --json, gh issue list --json",
+    summary: "kanban: [{title, status, …}] or Load bb issues list --json, gh issue list --json",
   },
   Roadmap: {
     group: "Manage",
